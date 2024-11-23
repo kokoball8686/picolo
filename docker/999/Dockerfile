@@ -7,5 +7,5 @@ RUN git clone https://github.com/gorisanson/pikachu-volleyball.git \
 
 EXPOSE 8080
 
-CMD ["npx", "http-server dist"]
+CMD ["npx", "http-server", "dist"]
 
